@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" version="1.1" viewBox="0 0 1200 1200">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M26.5,430.6l564,237.5c6.1,2.6,13,2.6,19.2,0l560-237.5c19.5-8.3,20.1-35.6,1.1-44.8L610.8,114.7c-6.7-3.3-14.6-3.3-21.4,0L25.4,385.7c-19.1,9.2-18.4,36.6,1.1,44.9Z"/>
+  <path class="st0" d="M260.6,529.2v158.7c0,26.9,8.6,53.1,24.6,74.7,35.9,48.4,121,116.8,314.8,116.8s282.1-68.3,320.4-116.7c17.5-22.1,27-49.6,27-77.8v-155"/>
+  <path class="st0" d="M812.6,760.9c51.6-23.7,105.3-62.7,134.7-126.6"/>
+  <path class="st0" d="M722.6,790.1c14.5-3,31.8-7.4,50.5-13.7"/>
+  <path class="st0" d="M260.6,657.5s103.9,180.4,419.7,139.1"/>
+  <ellipse class="st0" cx="605.8" cy="397.6" rx="74.6" ry="40.6"/>
+  <polyline class="st0" points="531.2 397.6 120.9 475.8 120.9 783.3"/>
+  <circle class="st0" cx="121.1" cy="823.1" r="38"/>
+  <path class="st0" d="M63,1066.4l20.2-175.7s3.8-29.6,38-29.6,38,32.6,38,32.6l23,172.8H63Z"/>
+</svg>

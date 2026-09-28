@@ -1,0 +1,192 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "scss/functions";
+@import "scss/variables";
+
+@import "scss/vendor/rfs";
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter Regular'), local('Inter-Regular'),
+      url('/_resources/themes/expo/webfonts/Inter-Regular.woff2') format('woff2'),
+      url('/_resources/themes/expo/webfonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Economica';
+  src: local('Economica'), local('Economica-Regular'),
+      url('/_resources/themes/expo/webfonts/Economica-Regular.woff2') format('woff2'),
+      url('/_resources/themes/expo/webfonts/Economica-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+//
+// Alternate buttons
+//
+/*
+@mixin button-variant-editor($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) {
+  color: color-yiq($hover-background);
+  @include gradient-bg($background);
+  border-color: $border;
+  @include box-shadow($btn-box-shadow);
+
+  @include hover() {
+    color: color-yiq($hover-background);
+    @include gradient-bg($hover-background);
+    border-color: $hover-border;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  a.btn-#{$color} {
+    @include button-variant-editor($value, $value);
+  }
+}
+*/
+
+@mixin text-emphasis-variant($parent, $color, $ignore-warning: false) {
+  #{$parent} {
+    color: $color !important;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  @include text-emphasis-variant(".text-#{$color}", $value, true);
+}
+
+.text-bigger {
+  font-size: 2rem;
+  line-height: 3.8rem;
+}
+
+
+%heading {
+  margin-top: 0; // 1
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-style: $headings-font-style;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+
+h1, .h1 {
+  @extend %heading;
+  @include font-size($h1-font-size);
+}
+
+h2, .h2 {
+  @extend %heading;
+  @include font-size($h2-font-size);
+}
+
+h3, .h3 {
+  @extend %heading;
+  @include font-size($h3-font-size);
+}
+
+h4, .h4 {
+  @extend %heading;
+  @include font-size($h4-font-size);
+}
+
+h5, .h5 {
+  @extend %heading;
+  @include font-size($h5-font-size);
+}
+
+h6, .h6 {
+  @extend %heading;
+  @include font-size($h6-font-size);
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  font-size: 1.125rem;
+  border-radius: 1rem;
+  transition: color 0.15sease-in-out, background-color 0.15sease-in-out, border-color 0.15sease-in-out, box-shadow 0.15sease-in-out;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #0A0E27;
+    border-color: #0A0E27;
+}
+
+
+.btn-arrow {
+	&::after {
+		content: "";
+		display: inline-block;
+		width: 16px;
+		height: 15px;
+		margin-left: 1rem;
+		
+		/* Boja ikonice preuzima trenutnu boju teksta (ili stavi npr. background-color: white) */
+		background-color: currentColor; 
+
+		/* Postavljanje maske */
+		-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15"><path d="M15.38 8.47411C15.7567 8.29669 16 7.91843 16 7.5C16 7.08157 15.7567 6.70331 15.38 6.52589L1.51401 0.0987774C1.10736 -0.0886801 0.630713 -0.00499371 0.314061 0.313014C-0.00259018 0.631023 -0.0892525 1.10971 0.0974054 1.5181L2.82728 7.5L0.0974054 13.4819C-0.0892525 13.8903 -0.00259018 14.369 0.314061 14.687C0.630713 15.005 1.10736 15.0887 1.51401 14.9012L15.38 8.47411Z"/></svg>');
+		mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15"><path d="M15.38 8.47411C15.7567 8.29669 16 7.91843 16 7.5C16 7.08157 15.7567 6.70331 15.38 6.52589L1.51401 0.0987774C1.10736 -0.0886801 0.630713 -0.00499371 0.314061 0.313014C-0.00259018 0.631023 -0.0892525 1.10971 0.0974054 1.5181L2.82728 7.5L0.0974054 13.4819C-0.0892525 13.8903 -0.00259018 14.369 0.314061 14.687C0.630713 15.005 1.10736 15.0887 1.51401 14.9012L15.38 8.47411Z"/></svg>');
+
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		-webkit-mask-size: contain;
+		mask-size: contain;
+		-webkit-mask-position: center;
+		mask-position: center;
+	}
+}
+
+.font-trois {
+	font-family: 'TroisMille', 'Helvetica Neue', Arial, sans-serif;
+}
+
+// Dodaj ili obriši ekstenzije po potrebi
+$file-extensions: ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".jpg", ".jpeg", ".png", ".gif", ".zip";
+
+$selectors: ();
+@each $ext in $file-extensions {
+  $selectors: append($selectors, unquote('a[href$="#{$ext}"]:not(:has(*))'), comma);
+}
+
+#{$selectors} {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Razmak između ikone i teksta */
+  
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 21px;
+    /* Inline SVG kao background-image */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='16' height='21' viewBox='0 0 16 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.33333 21C0.595833 21 0 20.4135 0 19.6875C0 18.9615 0.595833 18.375 1.33333 18.375H14.6667C15.4042 18.375 16 18.9615 16 19.6875C16 20.4135 15.4042 21 14.6667 21H1.33333ZM8.94167 15.3645C8.42083 15.8771 7.575 15.8771 7.05417 15.3645L1.72083 10.1145C1.2 9.60176 1.2 8.76914 1.72083 8.25645C2.24167 7.74375 3.0875 7.74375 3.60833 8.25645L6.66667 11.267V1.3125C6.66667 0.586523 7.2625 0 8 0C8.7375 0 9.33333 0.586523 9.33333 1.3125V11.267L12.3917 8.25645C12.9125 7.74375 13.7583 7.74375 14.2792 8.25645C14.8 8.76914 14.8 9.60176 14.2792 10.1145L8.94583 15.3645H8.94167Z' fill='%230A0E27'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-shrink: 0; // Sprječava sužavanje ikone ako je tekst dugačak
+  }
+}

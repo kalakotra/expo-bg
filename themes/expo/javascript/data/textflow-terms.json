@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "source": "BMWET-Pressemeldung 25.07.2025 + Skizze Projektleitung + Rendering Donauband",
+    "doc": "../../Textband_Begriffe.md",
+    "usage": "Begriffsgruppen fuer die Textfluss-Animation (expo27-textflow.js); die Bahnen mischen Gruppen gemaess ihrer 'mix'-Konfiguration."
+  },
+  "groups": {
+    "claim": [
+      "JOIN THE FLOW",
+      "Play for Humanity",
+      "Sport and Music for All",
+      "Austria"
+    ],
+    "facts": [
+      "150 Nationen",
+      "4,1 Mio Besucher:innen",
+      "93 Tage",
+      "800+ Unternehmen",
+      "3. größter Investor",
+      "2,2 Mrd € Exporte",
+      "15. Mai – 15. Aug 2027"
+    ],
+    "cluster": [
+      "Explore Austria",
+      "In the Heart of Europe",
+      "Industry & Innovation",
+      "Nature & Sustainability",
+      "Sports & Society",
+      "Partner of the Region",
+      "Innovation Lab",
+      "The Bridge"
+    ],
+    "values": [
+      "Flow",
+      "Culture",
+      "Economy",
+      "Create",
+      "Innovations",
+      "Bridging Regions",
+      "Play Together",
+      "Power of Play",
+      "Play for Progress"
+    ],
+    "connection": [
+      "Wien → Belgrad",
+      "Donau",
+      "Westbalkan",
+      "Zukunftsmärkte",
+      "EU-Integration",
+      "Partnerschaft",
+      "Nachbarschaft"
+    ]
+  },
+  "sr_note": "Serbisch-kyrillische Fassungen (keyed auf den Quellbegriff); expo27-textflow.js zeigt ca. jedes 4. Element kyrillisch, um den Serbien-Bezug sichtbar zu machen (wie 'Придружи се току' im Logo).",
+  "sr": {
+    "JOIN THE FLOW": "Придружи се току",
+    "Play for Humanity": "Игра за човечанство",
+    "Sport and Music for All": "Спорт и музика за све",
+    "Austria": "Аустрија",
+    "150 Nationen": "150 нација",
+    "4,1 Mio Besucher:innen": "4,1 мил. посетилаца",
+    "93 Tage": "93 дана",
+    "800+ Unternehmen": "800+ компанија",
+    "3. größter Investor": "3. највећи инвеститор",
+    "2,2 Mrd € Exporte": "2,2 млрд € извоза",
+    "15. Mai – 15. Aug 2027": "15. мај – 15. авг 2027",
+    "Explore Austria": "Истражи Аустрију",
+    "In the Heart of Europe": "У срцу Европе",
+    "Industry & Innovation": "Индустрија и иновације",
+    "Nature & Sustainability": "Природа и одрживост",
+    "Sports & Society": "Спорт и друштво",
+    "Partner of the Region": "Партнер региона",
+    "Innovation Lab": "Лаб за иновације",
+    "The Bridge": "Мост",
+    "Flow": "Ток",
+    "Culture": "Култура",
+    "Economy": "Привреда",
+    "Create": "Стварај",
+    "Innovations": "Иновације",
+    "Bridging Regions": "Повезивање региона",
+    "Play Together": "Играјмо заједно",
+    "Power of Play": "Снага игре",
+    "Play for Progress": "Игра за напредак",
+    "Wien → Belgrad": "Беч → Београд",
+    "Donau": "Дунав",
+    "Westbalkan": "Западни Балкан",
+    "Zukunftsmärkte": "Тржишта будућности",
+    "EU-Integration": "ЕУ интеграција",
+    "Partnerschaft": "Партнерство",
+    "Nachbarschaft": "Суседство"
+  }
+}

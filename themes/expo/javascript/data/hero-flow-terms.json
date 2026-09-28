@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "source": "Briefings/Fluss-Worte.md",
+    "doc": "demo-Planing/PLAN_Hero_Wortfluss.md",
+    "usage": "Begriffe fuer den Hero-Wortfluss (expo27-heroflow.js). Getrennt von textflow-terms.json, das den Footer mit anderem Inhalt (Pressezahlen, Themencluster) speist.",
+    "weightNote": "top-Begriffe kommen dreifach in den Pool und werden groesser/heller gerendert (Faktor 1.35).",
+    "collisionNote": "Innovation, Diaspora und Sport sind in de und en identisch; der Sequenzbau in expo27-heroflow.js verhindert, dass dasselbe Wort direkt hintereinander erscheint."
+  },
+  "top": [
+    { "de": "Donau", "en": "Danube", "sr": "Дунав" },
+    { "de": "Zukunft", "en": "Future", "sr": "Будућност" },
+    { "de": "Verbindung", "en": "Connection", "sr": "Веза" },
+    { "de": "Innovation", "en": "Innovation", "sr": "Иновација" },
+    { "de": "Partnerschaft", "en": "Partnership", "sr": "Партнерство" }
+  ],
+  "terms": [
+    { "de": "Österreich", "en": "Austria", "sr": "Аустрија" },
+    { "de": "Spielraum", "en": "Room to Play", "sr": "Простор за игру" },
+    { "de": "Serbien", "en": "Serbia", "sr": "Србија" },
+    { "de": "Europa", "en": "Europe", "sr": "Европа" },
+    { "de": "Diaspora", "en": "Diaspora", "sr": "Дијаспора" },
+    { "de": "Begegnung", "en": "Encounter", "sr": "Сусрет" },
+    { "de": "Wirtschaft", "en": "Economy", "sr": "Привреда" },
+    { "de": "Industrie", "en": "Industry", "sr": "Индустрија" },
+    { "de": "Forschung", "en": "Research", "sr": "Истраживање" },
+    { "de": "Bildung", "en": "Education", "sr": "Образовање" },
+    { "de": "Unternehmertum", "en": "Entrepreneurship", "sr": "Предузетништво" },
+    { "de": "Kreativität", "en": "Creativity", "sr": "Креативност" },
+    { "de": "Kultur", "en": "Culture", "sr": "Култура" },
+    { "de": "Musik", "en": "Music", "sr": "Музика" },
+    { "de": "Sport", "en": "Sport", "sr": "Спорт" },
+    { "de": "Lebensqualität", "en": "Quality of Life", "sr": "Квалитет живота" },
+    { "de": "Nachhaltigkeit", "en": "Sustainability", "sr": "Одрживост" },
+    { "de": "Offenheit", "en": "Openness", "sr": "Отвореност" },
+    { "de": "Teilhabe", "en": "Participation", "sr": "Учешће" }
+  ]
+}

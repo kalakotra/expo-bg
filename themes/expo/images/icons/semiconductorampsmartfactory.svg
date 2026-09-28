@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" version="1.1" viewBox="0 0 1200 1200">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <rect class="st0" x="414" y="415.5" width="369.3" height="369.3" rx="35.6" ry="35.6"/>
+  <rect class="st0" x="483.2" y="484.6" width="230.9" height="230.9" rx="4.2" ry="4.2"/>
+  <polyline class="st0" points="432.5 78.3 432.5 144.8 523.8 213.8 523.8 415.5"/>
+  <polyline class="st0" points="295.1 245.5 374.3 245.5 450.4 308.4 450.4 415.5"/>
+  <polyline class="st0" points="86.8 330.5 199.2 451.2 414 451.2"/>
+  <line class="st0" x1="250.4" y1="538.8" x2="414" y2="538.8"/>
+  <polyline class="st0" points="77.4 728.5 144.3 728.5 210.7 640.9 414 640.9"/>
+  <polyline class="st0" points="246.9 859.2 246.9 784.7 307.8 710.6 414 710.6"/>
+  <line class="st0" x1="622.2" y1="250.9" x2="622.2" y2="415.5"/>
+  <polyline class="st0" points="831.3 80.7 714.1 198.5 714.1 401.7"/>
+  <polyline class="st0" points="954.5 312.2 954.5 390.9 890.5 469.1 783.3 469.1"/>
+  <polyline class="st0" points="1125.7 451.2 1055.4 451.2 986.4 544.8 783.3 544.8"/>
+  <line class="st0" x1="936.6" y1="640.9" x2="783.3" y2="640.9"/>
+  <polyline class="st0" points="1112.9 850 993.8 730.8 789.6 730.8"/>
+  <polyline class="st0" points="856.8 951.3 783.3 951.3 706.6 893.1 706.6 787.7"/>
+  <polyline class="st0" points="631.6 790.4 631.6 983.5 724.5 1052.6 724.5 1119.7"/>
+  <line class="st0" x1="534.8" y1="936.6" x2="534.8" y2="784.9"/>
+  <polyline class="st0" points="449.6 784.7 449.6 994.8 327.6 1116.9"/>
+  <circle class="st0" cx="302.7" cy="1139.2" r="30"/>
+  <circle class="st0" cx="246.9" cy="896.2" r="30"/>
+  <circle class="st0" cx="60.8" cy="312.2" r="30"/>
+  <circle class="st0" cx="264.8" cy="245.5" r="30"/>
+  <circle class="st0" cx="432.5" cy="47.9" r="30"/>
+  <circle class="st0" cx="622.2" cy="211" r="30"/>
+  <circle class="st0" cx="853.2" cy="58.3" r="30"/>
+  <circle class="st0" cx="954.5" cy="276.9" r="30"/>
+  <circle class="st0" cx="46.4" cy="728.5" r="30"/>
+  <circle class="st0" cx="218.1" cy="538.8" r="30"/>
+  <circle class="st0" cx="534.8" cy="976.9" r="30"/>
+  <circle class="st0" cx="724.5" cy="1155.4" r="30"/>
+  <circle class="st0" cx="892.2" cy="955.1" r="30"/>
+  <circle class="st0" cx="1157.1" cy="451.2" r="30"/>
+  <circle class="st0" cx="976.9" cy="640.9" r="30"/>
+  <circle class="st0" cx="1139.2" cy="878.3" r="30"/>
+</svg>
