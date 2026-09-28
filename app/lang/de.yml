@@ -1,0 +1,17 @@
+de:
+  PAGE:
+    #ContactFormVorname: 'Vorname <span class="text-secondary">*</span>'
+    SeeAllNews: 'ALLE NEWS'
+  ContactPage:
+    IWant: 'Ich möchte ....'
+    Contact: 'Einfach in Kontakt treten'
+    Firstname: 'Vorname'
+    Lastname: 'Nachname'
+    Company: 'Firmenname / Institution'
+    Phone: 'Telefon'
+    Email: 'E-Mail'
+    ContactMethod: 'Bitte kontaktieren Sie mich'
+    ContactMethodEmail: 'per E-Mail'
+    ContactMethodPhone: 'telefonisch'
+    Message: 'Meine Nachricht'
+    Submit: 'Nachricht senden'

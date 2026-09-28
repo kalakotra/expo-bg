@@ -1,0 +1,13 @@
+/public/
+/vendor/
+/.ddev/
+silverstripe.log
+/themes/belgrad/
+/themes/expo_old/
+
+*.zip
+*.tar.gz
+*.rar
+*.sql
+*.sql.gz
+.env

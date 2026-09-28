@@ -1,0 +1,17 @@
+sr:
+  PAGE:
+    #ContactFormVorname: 'Име <span class="text-secondary">*</span>'
+    SeeAllNews: 'СВЕ ВЕСТИ'
+  ContactPage:
+    IWant: 'Желим ....'
+    Contact: 'Ступите у контакт'
+    Firstname: 'Име'
+    Lastname: 'Презиме'
+    Company: 'Назив компаније / Институција'
+    Phone: 'Телефон'
+    Email: 'Е-пошта'
+    ContactMethod: 'Молим вас, контактирајте ме'
+    ContactMethodEmail: 'путем е-поште'
+    ContactMethodPhone: 'путем телефона'
+    Message: 'Моја порука'
+    Submit: 'Пошаљи поруку'

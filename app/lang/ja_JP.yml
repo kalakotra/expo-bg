@@ -1,0 +1,83 @@
+ja_JP:
+  Page:
+    FBShare: 'facebookでシェア'
+    ContactFormLeftTitle: 'コンタクトの理由'
+    ContactFormLeftTitle2: 'コンタクト情報'
+    ContactFormFirma: '企業/団体名'
+    ContactFormStrasse: '住所'
+    ContactFormPLZ: '郵便番号'
+    ContactFormOrt: '都道府県名'
+    ContactFormAnrede: 'Title'
+    ContactFormTitel: 'Academic Title'
+    ContactFormPosition: 'お役職'
+    ContactFormVorname: '名前'
+    ContactFormNachname: '姓'
+    ContactFormTelefon: '電話番号'
+    ContactFormEmail: 'Eメール'
+    ContactFormProdukt: 'イノベーションのタイトル'
+    ContactFormRightTitle2: 'イノベーション/製品'
+    ContactFormRightTitle: '貴イノベーションは特許取得済、または法的保護を受けていますか？'
+    ContactFormRB1: 'Yes'
+    ContactFormRB2: 'No'
+    ContactFormRightTitle3: 'Your teaser'
+    ContactFormRightTitle4: '訪問者が目を向ける時間は長くはありません。貴イノベーションに対する訪問者の関心を高めるための「魅力的な要素」を教えて下さい。'
+    ContactFormRightTitle5: '貴イノベーション'
+    ContactFormRightTitle5a: '貴イノベーションについてご説明ください。（最大 700 文字）博覧会のテーマへの貢献や独自性を教えて下さい。'
+    ContactFormRightTitle6: '貴ビジネス/企業'
+    ContactFormRightTitle6a: '貴社についてご教示下さい。創業、輸出の有無など。（最大 700 文字）'
+    ContactFormRightTitle7: '画像資料など'
+    ContactFormRightTitle8: '関連画像をクレジット情報とともにお送り下さい。（最大3 枚迄）'
+    ContactFormRightTitle9: '画像形式の送信要件: JPG または PNG、解像度: 300 dpi、最小サイズ: 2000 x 1500 ピクセル'
+    ContactFormRightTitle10: 'ファイル名：Company name_Object name_No.　最大3 MB迄'
+    ContactFormRightTitle11: '動画：紹介動画があればお送り下さい。（最長3分迄）'
+    ContactFormRightTitle12: '動画の送信要件：mp4 形式、できれば H264 または H265、アスペクト比16:9。ファイル サイズ: 最大 100 MB迄'
+    ContactFormNachricht: 'メッセージ'
+    ContactFormDescription: '詳細（最大 700 文字）'
+    ContactFormNachrichtSubmit: '送信する。'
+    NewsBlockPrev: '前'
+    NewsBlockNext: '次'
+    NewsBlockLinkTitle: '全てのニュース'
+    ContactFormCatFieldTitle: "カテゴリー"
+    ContactFormCat1: "文化"
+    ContactFormCat2: "芸術"
+    ContactFormCat3: "教育"
+    ContactFormCat4: "ビジネス"
+    ContactFormCat5: "デジタル化"
+    ContactFormCat6: "環境"
+    ContactFormCat7: "その他"
+    PleaseChoose: "選択して下さい。"
+    ContactFormMax2000: "（最大 2000 文字）"
+    ContactFormIdeeFieldTitle: "アイディア"
+    ContactFormIdeeFieldDesc: "アイディアのタイトル"
+    ContactFormBeschreibung: 'メッセージ'
+  JournalPage:
+    MoreLink: '更に詳しく'
+    Menschen: '人々（People）'
+    Beziehungen: '関係性（Relationships）'
+    Ideen: 'アイディア（Ideas）'
+  ContactPage:
+  HomeHeader:
+    NOCH: '開催まであと'
+    DAYS: '日'
+  InnovationHolder:
+    ShowAll: 'All'
+  InnovationPage:
+    Category: 'カテゴリー'
+    Schluesselworte: 'ティーザー'
+    Ziel: '目標'
+    Firma: '会社 / 機関'
+    Standort: '位置'
+    Website: 'サイト'
+    Einzigartig: 'イノベーション'
+    Status: '企業'
+  EventsPage:
+    ORT: 'Place'
+    IMPAVILLON: 'Pavilion'
+    PUBLIC: 'Public'
+    THEMA: 'Theme'
+    COLOR0: 'All Events'
+    COLOR1: 'Your Event'
+    COLOR2: 'National Day'
+    COLOR3: 'Theme Weeks'
+    COLOR4: 'Business Programme'
+    COLOR5: 'Cultural Programme'

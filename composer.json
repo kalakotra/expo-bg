@@ -1,0 +1,59 @@
+{
+    "name": "silverstripe/installer",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": "^8.3",
+        "silverstripe/recipe-plugin": "^2.0",
+        "silverstripe/vendor-plugin": "^3.0",
+        "silverstripe/recipe-cms": "^6.1",
+        "silverstripe/login-forms": "^6.2",
+        "jonom/focuspoint": "^6.0",
+        "bummzack/sortablefile": "^3.0",
+        "undefinedoffset/sortablegridfield": "^3.0",
+        "tractorcow/silverstripe-fluent": "^8.2",
+        "axllent/silverstripe-scss": "^2.1",
+        "axllent/silverstripe-minifier": "^2.0",
+        "axllent/silverstripe-trailing-slash": "^2.2",
+        "axllent/silverstripe-scaled-uploads": "^2.3",
+        "axllent/silverstripe-meta-editor": "^1.2",
+        "symbiote/silverstripe-gridfieldextensions": "^5.2",
+        "buckleshusky/fontawesomeiconpicker": "^4.0",
+        "silverstripe/tagfield": "^4.2",
+        "silverstripe/htmleditor-tinymce": "^1.1",
+        "silverstripe/linkfield": "^5.2",
+        "dnadesign/silverstripe-elemental": "^6.2",
+        "unclecheese/display-logic": "^4.0",
+        "silverstripe/lumberjack": "^4.1",
+        "evanshunt/lumberjack-sort-and-summary": "^3.0",
+        "wilr/silverstripe-googlesitemaps": "dev-main",
+        "dynamic/silverstripe-elemental-oembed": "^6.0"
+        
+    },
+    "extra": {
+        "resources-dir": "_resources",
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ]
+    },
+    "config": {
+        "process-timeout": 600,
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

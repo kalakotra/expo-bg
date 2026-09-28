@@ -1,0 +1,53 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+SilverStripe\CMS\Model\SiteTree:
+  create_default_pages: false
+
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - CustomSiteConfig
+    - 'TractorCow\Fluent\Extension\FluentExtension'
+
+Axllent\ScaledUploads\ScaledUploads:
+  max_width: 6000            # Maximum width - default 960
+  max_height: 6000 
+
+
+app\pages\ElementalPage:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+  elemental_keep_content_field: true
+
+
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - TractorCow\Fluent\Extension\FluentVersionedExtension
+
+SilverStripe\LinkField\Models\Link:
+  extensions:
+    - TractorCow\Fluent\Extension\FluentVersionedExtension
+  field_exclude:
+    - OwnerRelation
+
+HomePage:
+  elemental_keep_content_field: false
+
+app\model\ElementTimelineItem:
+  extensions:
+    - TractorCow\Fluent\Extension\FluentExtension
+
+app\model\CooperationType:
+  extensions:
+    - TractorCow\Fluent\Extension\FluentExtension
+
+app\model\VideoItem:
+  extensions:
+    - TractorCow\Fluent\Extension\FluentExtension
+
+app\model\InnovationCategory:
+  extensions:
+    - TractorCow\Fluent\Extension\FluentExtension

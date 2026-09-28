@@ -1,0 +1,14 @@
+---
+Name: routes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'cleanup': 'app\controllers\CleanupController'
+    'crawl': 'app\controllers\Crawler'
+    'e/$ID!': 'app\controllers\guide\GuideURLController'
+    'exhibits/links': 'app\controllers\guide\ExhibitionLinksController'
+    'guide/error': 'app\controllers\guide\GuideErrorController'
+    'generatepressfiles': 'app\controllers\PressFileGenerationController'

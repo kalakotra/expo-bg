@@ -1,0 +1,14 @@
+php_value post_max_size 200M
+php_value upload_max_filesize 200M
+
+php_value mail.log /usr/home/expoat/public_html/log/mail.log
+
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} expoaustria\.at$ [NC]
+#RewriteRule (.*) https://www.wko.at/site/expoaustria/de/expo-2025.html [R=302,L]
+
+RewriteCond %{HTTP_HOST} \.seeyou\.at$ [NC]
+RewriteRule (.*) https://expoaustria.at/$1 [R=301,L]
+
+RewriteRule ^(.*)$ public/$1

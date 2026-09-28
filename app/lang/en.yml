@@ -1,0 +1,96 @@
+en:
+  Page:
+    FBShare: 'Share via facebook'
+    ContactFormLeftTitle: 'I would like to ....'
+    ContactFormLeftTitle2: 'Contact info'
+    ContactFormFirma: 'Name of Company / Institution'
+    ContactFormStrasse: 'Street'
+    ContactFormPLZ: 'Postal Code'
+    ContactFormOrt: 'City'
+    ContactFormAnrede: 'Title'
+    ContactFormTitel: 'Academic Title'
+    ContactFormPosition: 'Position'
+    ContactFormVorname: 'First Name'
+    ContactFormNachname: 'Surname'
+    ContactFormTelefon: 'Telephone Number'
+    ContactFormEmail: 'E-Mail'
+    ContactFormProdukt: 'Name of the Innovation'
+    ContactFormRightTitle2: 'Innovation/Product'
+    ContactFormRightTitle: 'Is your innovation patented or legally protected?'
+    ContactFormRB1: 'Yes'
+    ContactFormRB2: 'No'
+    ContactFormRightTitle3: 'Your teaser'
+    ContactFormRightTitle4: 'The duration of attention of visitors is relatively short. Which “cachy” questions do you use to arouse visitors’ interest in your innovation?'
+    ContactFormRightTitle5: 'Your innovation'
+    ContactFormRightTitle5a: 'Please describe your innovation. (max 700 characters) How does it contribute to the theme of the Expo? What makes it unique?'
+    ContactFormRightTitle6: 'Your business/company'
+    ContactFormRightTitle6a: 'Describe your company? Since when active? Do you export? (max 700 characters)'
+    ContactFormRightTitle7: 'Visual Presentation'
+    ContactFormRightTitle8: 'Please send a maximum of 3 images of your innovation with credit information.'
+    ContactFormRightTitle9: 'Requirements: Imageformat: JPG or PNG, Resolution: 300 dpi, minimum size: 2000 x 1500 pixels'
+    ContactFormRightTitle10: 'File name: Company name_Object name_No. File size: max. 3 MB'
+    ContactFormRightTitle11: 'Video: Do you have videos that explain your product in a maximum of 3 minutes?'
+    ContactFormRightTitle12: 'Please upload the video in .mp4 format, preferably H264 or H265, with an aspect ratio of 16:9. File size: max. 100 MB'
+    ContactFormNachricht: 'My Message'
+    ContactFormDescription: 'Description (max 2000 characters)'
+    ContactFormNachrichtSubmit: 'Send Message'
+    NewsBlockPrev: 'Previous'
+    NewsBlockNext: 'Next'
+    NewsBlockLinkTitle: 'All News'
+    ContactFormCatFieldTitle: "Category"
+    ContactFormCat1: "Culture"
+    ContactFormCat2: "Art"
+    ContactFormCat3: "Eductaion"
+    ContactFormCat4: "Business"
+    ContactFormCat5: "Digitalization"
+    ContactFormCat6: "Enviroment"
+    ContactFormCat7: "Other"
+    PleaseChoose: "Please choose"
+    ContactFormMax2000: "(max. 2.000 characters)"
+    ContactFormIdeeFieldTitle: "Idea"
+    ContactFormIdeeFieldDesc: "Name of the idea"
+    ContactFormBeschreibung: 'My Message'
+    SeeAllNews: 'ALL NEWS'
+  JournalPage:
+    MoreLink: 'Read more'
+    Menschen: 'People'
+    Beziehungen: 'Relationships'
+    Ideen: 'Ideas'
+  ContactPage:
+    IWant: 'I would like to ....'
+    Contact: 'Get into contact'
+    Firstname: 'First Name'
+    Lastname: 'Surname'
+    Company: 'Name of Company / Institution'
+    Phone: 'Telephone Number'
+    Email: 'E-Mail'
+    ContactMethod: 'Preferred contact method'
+    ContactMethodEmail: 'E-Mail'
+    ContactMethodPhone: 'Telephone'
+    Message: 'My Message'
+    Submit: 'Send Message'
+  HomeHeader:
+    NOCH: ' '
+    DAYS: 'Days'
+  InnovationHolder:
+    ShowAll: 'All'
+  InnovationPage:
+    Category: 'Category'
+    Schluesselworte: 'Teaser'
+    Ziel: 'Sustainable Development Goals'
+    Firma: 'Company / Institution'
+    Standort: 'Place'
+    Website: 'Homepage'
+    Einzigartig: 'What makes your innovation unique?'
+    Status: 'About the company'
+  EventsPage:
+    ORT: 'Place'
+    IMPAVILLON: 'Pavilion'
+    PUBLIC: 'Public'
+    THEMA: 'Theme'
+    COLOR0: 'All Events'
+    COLOR1: 'Your Event'
+    COLOR2: 'National Day'
+    COLOR3: 'Theme Weeks'
+    COLOR4: 'Business Programme'
+    COLOR5: 'Cultural Programme'
